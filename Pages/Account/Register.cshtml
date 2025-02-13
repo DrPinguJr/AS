@@ -1,0 +1,176 @@
+﻿@page
+@using dit230680c_AS.Pages.Account
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>Register</h2>
+
+<form method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    
+    <!-- Full Name -->
+    <div>
+        <label>Full Name:</label>
+        <input asp-for="Input.FullName" class="form-control" required />
+        <span asp-validation-for="Input.FullName" class="text-danger"></span>
+    </div>
+
+    <!-- Gender -->
+    <div>
+        <label>Gender:</label>
+        <select asp-for="Input.Gender" class="form-control" required>
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+        <span asp-validation-for="Input.Gender" class="text-danger"></span>
+    </div>
+
+    <!-- Credit Card Number -->
+    <div>
+        <label>Credit Card Number:</label>
+        <input asp-for="Input.CreditCardNo" class="form-control" required />
+        <span asp-validation-for="Input.CreditCardNo" class="text-danger"></span>
+    </div>
+
+    <!-- Mobile Number -->
+    <div>
+        <label>Mobile Number:</label>
+        <input asp-for="Input.MobileNo" class="form-control" required />
+        <span asp-validation-for="Input.MobileNo" class="text-danger"></span>
+    </div>
+
+    <!-- Delivery Address -->
+    <div>
+        <label>Delivery Address:</label>
+        <input asp-for="Input.DeliveryAddress" class="form-control" required />
+        <span asp-validation-for="Input.DeliveryAddress" class="text-danger"></span>
+    </div>
+
+    <!-- Email with real-time duplication check -->
+    <div>
+        <label>Email:</label>
+        <input asp-for="Input.Email" class="form-control" id="Input_Email" required />
+        <span asp-validation-for="Input.Email" class="text-danger"></span>
+        <span id="email-error" class="text-danger"></span>
+    </div>
+
+    <!-- Password with strength checker -->
+    <div>
+        <label>Password:</label>
+        <input asp-for="Input.Password" type="password" class="form-control" id="password" required oninput="checkPasswordStrength()" />
+        <div id="password-strength" style="height: 10px; display: flex; margin-top: 5px;">
+            <div class="strength-bar"></div>
+            <div class="strength-bar"></div>
+            <div class="strength-bar"></div>
+            <div class="strength-bar"></div>
+        </div>
+        <small id="password-strength-text" class="form-text text-muted"></small>
+        <span asp-validation-for="Input.Password" class="text-danger"></span>
+    </div>
+
+    <!-- Confirm Password -->
+    <div>
+        <label>Confirm Password:</label>
+        <input asp-for="Input.ConfirmPassword" type="password" class="form-control" required />
+        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+    </div>
+
+    <!-- Date of Birth -->
+    <div>
+        <label>Date of Birth:</label>
+        <input asp-for="Input.DateOfBirth" type="date" class="form-control" required />
+        <span asp-validation-for="Input.DateOfBirth" class="text-danger"></span>
+    </div>
+
+    <!-- Who Am I -->
+    <div>
+        <label>About Me</label>
+        <textarea asp-for="Input.AboutMe" class="form-control"></textarea>
+        <span asp-validation-for="Input.AboutMe" class="text-danger"></span>
+    </div>
+
+    <!-- Photo Upload (JPG only) -->
+    <div>
+        <label>Upload Photo (JPG only):</label>
+        <input asp-for="Input.Photo" type="file" class="form-control" id="Input_Photo" accept=".jpg" required />
+        <span asp-validation-for="Input.Photo" class="text-danger"></span>
+        <span id="file-error" class="text-danger"></span>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary mt-3">Register</button>
+
+    <!-- General Error Message (Properly Encoded) -->
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="text-danger mt-2">@Html.Encode(Model.ErrorMessage)</div>
+    }
+
+    <!-- Securely Displaying User Input After Submission -->
+    @if (Model.Input != null)
+    {
+        <h3>Submitted Details (Securely Encoded)</h3>
+        <p>Full Name: @Html.Encode(Model.Input.FullName)</p>
+        <p>Email: @Html.Encode(Model.Input.Email)</p>
+        <p>Gender: @Html.Encode(Model.Input.Gender)</p>
+        <p>Mobile Number: @Html.Encode(Model.Input.MobileNo)</p>
+        <p>Delivery Address: @Html.Encode(Model.Input.DeliveryAddress)</p>
+        <p>About Me: @Html.Encode(Model.Input.AboutMe)</p>
+    }
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Real-time Email Validation
+        document.getElementById('Input_Email').addEventListener('blur', function () {
+            const email = this.value;
+            const emailError = document.getElementById('email-error');
+
+            if (email) {
+                fetch(`/Account/Register?handler=CheckEmail&email=${encodeURIComponent(email)}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        emailError.textContent = data.isEmailTaken ? 'Email is already registered.' : '';
+                    })
+                    .catch(error => console.error('Error checking email:', error));
+            }
+        });
+
+        // File Type Validation for Photo Upload
+        document.getElementById('Input_Photo').addEventListener('change', function () {
+            const file = this.files[0];
+            const fileError = document.getElementById('file-error');
+            if (file && !file.name.toLowerCase().endsWith('.jpg')) {
+                fileError.textContent = 'Only JPG files are allowed.';
+                this.value = '';
+            } else {
+                fileError.textContent = '';
+            }
+        });
+
+        // Password Strength Checker
+        function checkPasswordStrength() {
+            const password = document.getElementById('password').value;
+            const strengthBars = document.querySelectorAll('.strength-bar');
+            const strengthText = document.getElementById('password-strength-text');
+
+            let strength = 0;
+            if (password.length >= 12) strength++;
+            if (/[a-z]/.test(password) && /[A-Z]/.test(password)) strength++;
+            if (/\d/.test(password)) strength++;
+            if (/[\W_]/.test(password)) strength++;
+
+            strengthBars.forEach((bar, index) => {
+                bar.style.backgroundColor = index < strength ? ['red', 'orange', 'limegreen', 'green'][strength - 1] : 'lightgray';
+            });
+
+            strengthText.textContent = ['Very Weak', 'Weak', 'Fair', 'Good', 'Strong'][strength];
+            strengthText.style.color = ['red', 'orange', 'green', 'green'][strength];
+        }
+    </script>
+}

@@ -1,0 +1,1516 @@
+2025-02-13 00:01:16.898 +08:00 [INF] Application is shutting down...
+2025-02-13 00:01:20.546 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:01:20.621 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:01:20.622 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:01:20.622 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:01:20.622 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:01:24.125 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - null null
+2025-02-13 00:01:24.130 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:01:24.148 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:01:24.151 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:01:24.167 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:01:24.211 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:01:24.214 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:01:24.215 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:01:24.216 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:01:24.216 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:01:24.310 +08:00 [INF] Executed page /Account/Login in 141.5464ms
+2025-02-13 00:01:24.311 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:01:24.313 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 188.9535ms
+2025-02-13 00:01:24.319 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-02-13 00:01:24.319 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/css/site.css - null null
+2025-02-13 00:01:24.319 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/lib/jquery/dist/jquery.js - null null
+2025-02-13 00:01:24.319 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/lib/bootstrap/dist/css/bootstrap.css - null null
+2025-02-13 00:01:24.319 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/lib/jquery-validation/dist/jquery.validate.js - null null
+2025-02-13 00:01:24.319 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js - null null
+2025-02-13 00:01:24.326 +08:00 [INF] Sending file. Request path: '/Identity/css/site.css'. Physical path: '/Users/lance/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.0/staticwebassets/V5/css/site.css'
+2025-02-13 00:01:24.327 +08:00 [INF] Sending file. Request path: '/Identity/lib/jquery/dist/jquery.js'. Physical path: '/Users/lance/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.0/staticwebassets/V5/lib/jquery/dist/jquery.js'
+2025-02-13 00:01:24.326 +08:00 [INF] Sending file. Request path: '/Identity/js/site.js'. Physical path: '/Users/lance/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.0/staticwebassets/V5/js/site.js'
+2025-02-13 00:01:24.328 +08:00 [INF] Sending file. Request path: '/Identity/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/lance/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.0/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css'
+2025-02-13 00:01:24.329 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 10.2136ms
+2025-02-13 00:01:24.328 +08:00 [INF] Sending file. Request path: '/Identity/lib/jquery-validation/dist/jquery.validate.js'. Physical path: '/Users/lance/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.0/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js'
+2025-02-13 00:01:24.329 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/css/site.css - 200 1592 text/css 10.3796ms
+2025-02-13 00:01:24.327 +08:00 [INF] Sending file. Request path: '/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/lance/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.0/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js'
+2025-02-13 00:01:24.329 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/lib/jquery/dist/jquery.js - 200 288580 text/javascript 10.4202ms
+2025-02-13 00:01:24.329 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/lib/jquery-validation/dist/jquery.validate.js - 200 51171 text/javascript 10.9025ms
+2025-02-13 00:01:24.329 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - null null
+2025-02-13 00:01:24.329 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/lib/bootstrap/dist/css/bootstrap.css - 200 204136 text/css 10.8335ms
+2025-02-13 00:01:24.330 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js - 200 208492 text/javascript 11.1702ms
+2025-02-13 00:01:24.330 +08:00 [INF] Sending file. Request path: '/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: '/Users/lance/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.0/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'
+2025-02-13 00:01:24.330 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - 200 19385 text/javascript 0.4912ms
+2025-02-13 00:02:40.245 +08:00 [INF] Application is shutting down...
+2025-02-13 00:20:45.930 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:20:46.005 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:20:46.006 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:20:46.006 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:20:46.006 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:20:47.566 +08:00 [INF] Application is shutting down...
+2025-02-13 00:21:08.482 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-02-13 00:21:08.508 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-02-13 00:21:08.512 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-02-13 00:21:08.518 +08:00 [INF] Applying migration '20250212162056_InitialCreate'.
+2025-02-13 00:21:08.545 +08:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetRoles" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_AspNetRoles" PRIMARY KEY,
+    "Name" TEXT NULL,
+    "NormalizedName" TEXT NULL,
+    "ConcurrencyStamp" TEXT NULL
+);
+2025-02-13 00:21:38.722 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-02-13 00:21:38.772 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2025-02-13 00:21:38.775 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-02-13 00:21:38.776 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-02-13 00:21:38.781 +08:00 [INF] Applying migration '20250212162132_InitialCreate'.
+2025-02-13 00:21:38.800 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetRoles" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_AspNetRoles" PRIMARY KEY,
+    "Name" TEXT NULL,
+    "NormalizedName" TEXT NULL,
+    "ConcurrencyStamp" TEXT NULL
+);
+2025-02-13 00:21:38.801 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetUsers" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_AspNetUsers" PRIMARY KEY,
+    "UserName" TEXT NULL,
+    "NormalizedUserName" TEXT NULL,
+    "Email" TEXT NULL,
+    "NormalizedEmail" TEXT NULL,
+    "EmailConfirmed" INTEGER NOT NULL,
+    "PasswordHash" TEXT NULL,
+    "SecurityStamp" TEXT NULL,
+    "ConcurrencyStamp" TEXT NULL,
+    "PhoneNumber" TEXT NULL,
+    "PhoneNumberConfirmed" INTEGER NOT NULL,
+    "TwoFactorEnabled" INTEGER NOT NULL,
+    "LockoutEnd" TEXT NULL,
+    "LockoutEnabled" INTEGER NOT NULL,
+    "AccessFailedCount" INTEGER NOT NULL
+);
+2025-02-13 00:21:38.801 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AuditLogs" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_AuditLogs" PRIMARY KEY AUTOINCREMENT,
+    "UserId" TEXT NOT NULL,
+    "Activity" TEXT NOT NULL,
+    "Timestamp" TEXT NOT NULL,
+    "IpAddress" TEXT NOT NULL,
+    "UserAgent" TEXT NOT NULL
+);
+2025-02-13 00:21:38.801 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Users" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Users" PRIMARY KEY AUTOINCREMENT,
+    "FullName" TEXT NOT NULL,
+    "CreditCardNo" TEXT NOT NULL,
+    "Gender" TEXT NOT NULL,
+    "MobileNo" TEXT NOT NULL,
+    "DeliveryAddress" TEXT NOT NULL,
+    "Email" TEXT NOT NULL,
+    "PasswordHash" TEXT NOT NULL,
+    "PhotoPath" TEXT NOT NULL,
+    "AboutMe" TEXT NOT NULL,
+    "CurrentSessionId" TEXT NULL
+);
+2025-02-13 00:21:38.801 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetRoleClaims" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_AspNetRoleClaims" PRIMARY KEY AUTOINCREMENT,
+    "RoleId" TEXT NOT NULL,
+    "ClaimType" TEXT NULL,
+    "ClaimValue" TEXT NULL,
+    CONSTRAINT "FK_AspNetRoleClaims_AspNetRoles_RoleId" FOREIGN KEY ("RoleId") REFERENCES "AspNetRoles" ("Id") ON DELETE CASCADE
+);
+2025-02-13 00:21:38.801 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetUserClaims" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_AspNetUserClaims" PRIMARY KEY AUTOINCREMENT,
+    "UserId" TEXT NOT NULL,
+    "ClaimType" TEXT NULL,
+    "ClaimValue" TEXT NULL,
+    CONSTRAINT "FK_AspNetUserClaims_AspNetUsers_UserId" FOREIGN KEY ("UserId") REFERENCES "AspNetUsers" ("Id") ON DELETE CASCADE
+);
+2025-02-13 00:21:38.801 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetUserLogins" (
+    "LoginProvider" TEXT NOT NULL,
+    "ProviderKey" TEXT NOT NULL,
+    "ProviderDisplayName" TEXT NULL,
+    "UserId" TEXT NOT NULL,
+    CONSTRAINT "PK_AspNetUserLogins" PRIMARY KEY ("LoginProvider", "ProviderKey"),
+    CONSTRAINT "FK_AspNetUserLogins_AspNetUsers_UserId" FOREIGN KEY ("UserId") REFERENCES "AspNetUsers" ("Id") ON DELETE CASCADE
+);
+2025-02-13 00:21:38.801 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetUserRoles" (
+    "UserId" TEXT NOT NULL,
+    "RoleId" TEXT NOT NULL,
+    CONSTRAINT "PK_AspNetUserRoles" PRIMARY KEY ("UserId", "RoleId"),
+    CONSTRAINT "FK_AspNetUserRoles_AspNetRoles_RoleId" FOREIGN KEY ("RoleId") REFERENCES "AspNetRoles" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_AspNetUserRoles_AspNetUsers_UserId" FOREIGN KEY ("UserId") REFERENCES "AspNetUsers" ("Id") ON DELETE CASCADE
+);
+2025-02-13 00:21:38.801 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetUserTokens" (
+    "UserId" TEXT NOT NULL,
+    "LoginProvider" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "Value" TEXT NULL,
+    CONSTRAINT "PK_AspNetUserTokens" PRIMARY KEY ("UserId", "LoginProvider", "Name"),
+    CONSTRAINT "FK_AspNetUserTokens_AspNetUsers_UserId" FOREIGN KEY ("UserId") REFERENCES "AspNetUsers" ("Id") ON DELETE CASCADE
+);
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PasswordHistories" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PasswordHistories" PRIMARY KEY AUTOINCREMENT,
+    "UserId" TEXT NOT NULL,
+    "HashedPassword" TEXT NOT NULL,
+    "CreatedAt" TEXT NOT NULL,
+    CONSTRAINT "FK_PasswordHistories_AspNetUsers_UserId" FOREIGN KEY ("UserId") REFERENCES "AspNetUsers" ("Id") ON DELETE RESTRICT
+);
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_AspNetRoleClaims_RoleId" ON "AspNetRoleClaims" ("RoleId");
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "RoleNameIndex" ON "AspNetRoles" ("NormalizedName");
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_AspNetUserClaims_UserId" ON "AspNetUserClaims" ("UserId");
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_AspNetUserLogins_UserId" ON "AspNetUserLogins" ("UserId");
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_AspNetUserRoles_RoleId" ON "AspNetUserRoles" ("RoleId");
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "EmailIndex" ON "AspNetUsers" ("NormalizedEmail");
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "UserNameIndex" ON "AspNetUsers" ("NormalizedUserName");
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PasswordHistories_UserId" ON "PasswordHistories" ("UserId");
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Users_Email" ON "Users" ("Email");
+2025-02-13 00:21:38.802 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250212162132_InitialCreate', '8.0.0');
+2025-02-13 00:21:45.752 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:21:45.824 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:21:45.825 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:21:45.825 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:21:45.825 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:21:53.916 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - null null
+2025-02-13 00:21:53.920 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:21:53.941 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:21:53.943 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:21:53.959 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:21:54.002 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:21:54.005 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:21:54.005 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:21:54.006 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:21:54.006 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:21:54.101 +08:00 [INF] Executed page /Account/Login in 140.831ms
+2025-02-13 00:21:54.102 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:21:54.104 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 189.4183ms
+2025-02-13 00:21:56.158 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:21:56.163 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:21:56.164 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:21:56.165 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:21:56.166 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 8.6015ms
+2025-02-13 00:21:56.168 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:21:56.171 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:21:56.175 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-13 00:21:56.179 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-02-13 00:21:56.180 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 302 0 null 11.4056ms
+2025-02-13 00:21:56.182 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - null null
+2025-02-13 00:21:56.187 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:21:56.189 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:21:56.189 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:21:56.203 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:21:56.203 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:21:56.204 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:21:56.204 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:21:56.204 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:21:56.208 +08:00 [INF] Executed page /Account/Login in 18.4302ms
+2025-02-13 00:21:56.208 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:21:56.208 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 26.3117ms
+2025-02-13 00:22:02.408 +08:00 [INF] Application is shutting down...
+2025-02-13 00:22:06.357 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:22:06.430 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:22:06.431 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:22:06.431 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:22:06.432 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:22:08.254 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:22:08.257 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:22:08.272 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:22:08.273 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:22:08.274 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:22:08.275 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 22.6214ms
+2025-02-13 00:22:08.278 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:22:08.279 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:22:08.280 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-13 00:22:08.283 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-02-13 00:22:08.283 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 302 0 null 4.8469ms
+2025-02-13 00:22:08.284 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - null null
+2025-02-13 00:22:08.285 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:22:08.285 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:22:08.298 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:22:08.342 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:22:08.344 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:22:08.344 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:22:08.345 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:22:08.346 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:22:08.440 +08:00 [INF] Executed page /Account/Login in 140.5085ms
+2025-02-13 00:22:08.441 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:22:08.444 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 159.8756ms
+2025-02-13 00:22:22.009 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - application/x-www-form-urlencoded 254
+2025-02-13 00:22:22.015 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:22:22.017 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:22:22.018 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:22:22.040 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:22:22.371 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:22:22.375 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:22:22.378 +08:00 [INF] Executed page /Account/Login in 359.2231ms
+2025-02-13 00:22:22.378 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:22:22.380 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 371.0247ms
+2025-02-13 00:22:24.307 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - application/x-www-form-urlencoded 257
+2025-02-13 00:22:24.308 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:22:24.309 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:22:24.310 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:22:24.313 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:22:24.360 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:22:24.361 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:22:24.363 +08:00 [INF] Executed page /Account/Login in 53.625ms
+2025-02-13 00:22:24.363 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:22:24.364 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 57.1274ms
+2025-02-13 00:22:25.787 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - application/x-www-form-urlencoded 258
+2025-02-13 00:22:25.788 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:22:25.788 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:22:25.789 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:22:25.790 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:22:25.808 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:22:25.809 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:22:25.812 +08:00 [INF] Executed page /Account/Login in 23.4437ms
+2025-02-13 00:22:25.812 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:22:25.813 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 26.2283ms
+2025-02-13 00:22:27.703 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - application/x-www-form-urlencoded 261
+2025-02-13 00:22:27.704 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:22:27.704 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:22:27.705 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:22:27.706 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:22:27.708 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:22:27.709 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:22:27.712 +08:00 [INF] Executed page /Account/Login in 7.2645ms
+2025-02-13 00:22:27.712 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:22:27.713 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 9.6329ms
+2025-02-13 00:22:30.263 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - application/x-www-form-urlencoded 259
+2025-02-13 00:22:30.264 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:22:30.264 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:22:30.264 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:22:30.266 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:22:30.268 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:22:30.268 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:22:30.272 +08:00 [INF] Executed page /Account/Login in 7.3457ms
+2025-02-13 00:22:30.272 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:22:30.272 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 9.9174ms
+2025-02-13 00:22:32.597 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Register - null null
+2025-02-13 00:22:32.598 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:22:32.599 +08:00 [INF] Executing endpoint '/Account/Register'
+2025-02-13 00:22:32.613 +08:00 [INF] Route matched with {page = "/Account/Register", area = "Identity"}. Executing page /Account/Register
+2025-02-13 00:22:32.615 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.RegisterModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:22:32.617 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:22:32.617 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:22:32.617 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:22:32.636 +08:00 [INF] Executed page /Account/Register in 22.726ms
+2025-02-13 00:22:32.636 +08:00 [INF] Executed endpoint '/Account/Register'
+2025-02-13 00:22:32.636 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Register - 200 null text/html; charset=utf-8 39.6297ms
+2025-02-13 00:23:12.577 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Register - null null
+2025-02-13 00:23:12.578 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:23:12.579 +08:00 [INF] Executing endpoint '/Account/Register'
+2025-02-13 00:23:12.579 +08:00 [INF] Route matched with {page = "/Account/Register", area = "Identity"}. Executing page /Account/Register
+2025-02-13 00:23:12.581 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.RegisterModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:23:12.581 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:23:12.581 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:23:12.581 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:23:12.584 +08:00 [INF] Executed page /Account/Register in 5.4841ms
+2025-02-13 00:23:12.585 +08:00 [INF] Executed endpoint '/Account/Register'
+2025-02-13 00:23:12.585 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Register - 200 null text/html; charset=utf-8 8.1425ms
+2025-02-13 00:23:20.768 +08:00 [INF] Application is shutting down...
+2025-02-13 00:23:25.264 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:23:25.339 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:23:25.341 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:23:25.341 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:23:25.341 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:23:28.220 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:23:28.224 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:23:28.240 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:23:28.242 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:23:28.242 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:23:28.244 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 25.5458ms
+2025-02-13 00:23:28.247 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:23:28.248 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:23:28.249 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-13 00:23:28.251 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-02-13 00:23:28.251 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 302 0 null 4.7276ms
+2025-02-13 00:23:28.252 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - null null
+2025-02-13 00:23:28.254 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:23:28.254 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:23:28.267 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:23:28.312 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:23:28.314 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:23:28.314 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:23:28.315 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:23:28.315 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:23:28.410 +08:00 [INF] Executed page /Account/Login in 140.4551ms
+2025-02-13 00:23:28.410 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:23:28.411 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 158.4825ms
+2025-02-13 00:24:48.525 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/login - null null
+2025-02-13 00:24:48.528 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:24:48.530 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-13 00:24:48.531 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-02-13 00:24:48.532 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/login - 302 0 null 7.4954ms
+2025-02-13 00:24:48.534 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2Flogin - null null
+2025-02-13 00:24:48.541 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:24:48.542 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:24:48.543 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:24:48.561 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:24:48.561 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:24:48.561 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:24:48.561 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:24:48.562 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:24:48.567 +08:00 [INF] Executed page /Account/Login in 23.8899ms
+2025-02-13 00:24:48.567 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:24:48.567 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2Flogin - 200 null text/html; charset=utf-8 33.6145ms
+2025-02-13 00:24:55.010 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/login - null null
+2025-02-13 00:24:55.012 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:24:55.012 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-13 00:24:55.013 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-02-13 00:24:55.013 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/login - 302 0 null 2.5912ms
+2025-02-13 00:24:55.015 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2Flogin - null null
+2025-02-13 00:24:55.015 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:24:55.016 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:24:55.017 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:24:55.020 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:24:55.021 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:24:55.021 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:24:55.022 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:24:55.022 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:24:55.028 +08:00 [INF] Executed page /Account/Login in 11.0865ms
+2025-02-13 00:24:55.029 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:24:55.029 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2Flogin - 200 null text/html; charset=utf-8 14.3075ms
+2025-02-13 00:26:01.659 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Register?returnUrl=%2FAccount%2Flogin - null null
+2025-02-13 00:26:01.660 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:26:01.661 +08:00 [INF] Executing endpoint '/Account/Register'
+2025-02-13 00:26:01.672 +08:00 [INF] Route matched with {page = "/Account/Register", area = "Identity"}. Executing page /Account/Register
+2025-02-13 00:26:01.674 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.RegisterModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:26:01.676 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:26:01.676 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:26:01.676 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:26:01.688 +08:00 [INF] Executed page /Account/Register in 15.7725ms
+2025-02-13 00:26:01.688 +08:00 [INF] Executed endpoint '/Account/Register'
+2025-02-13 00:26:01.688 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Register?returnUrl=%2FAccount%2Flogin - 200 null text/html; charset=utf-8 29.8162ms
+2025-02-13 00:27:01.925 +08:00 [INF] Application is shutting down...
+2025-02-13 00:27:12.043 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:27:12.119 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:27:12.120 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:27:12.121 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:27:12.121 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:27:15.215 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Register?returnUrl=%2FAccount%2Flogin - null null
+2025-02-13 00:27:15.221 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:27:15.243 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:27:15.246 +08:00 [INF] Executing endpoint '/Account/Register'
+2025-02-13 00:27:15.260 +08:00 [INF] Route matched with {page = "/Account/Register", area = "Identity"}. Executing page /Account/Register
+2025-02-13 00:27:15.300 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.RegisterModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:27:15.301 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:27:15.302 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:27:15.302 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:27:15.391 +08:00 [INF] Executed page /Account/Register in 129.5742ms
+2025-02-13 00:27:15.392 +08:00 [INF] Executed endpoint '/Account/Register'
+2025-02-13 00:27:15.394 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Register?returnUrl=%2FAccount%2Flogin - 200 null text/html; charset=utf-8 180.8513ms
+2025-02-13 00:27:17.487 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:27:17.491 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:27:17.491 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:27:17.493 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:27:17.494 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 8.1229ms
+2025-02-13 00:27:17.497 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:27:17.502 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:27:17.506 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-13 00:27:17.511 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-02-13 00:27:17.512 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 302 0 null 15.048ms
+2025-02-13 00:27:17.514 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - null null
+2025-02-13 00:27:17.520 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:27:17.521 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:27:17.527 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:27:17.541 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:27:17.544 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:27:17.545 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:27:17.545 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:27:17.545 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:27:17.558 +08:00 [INF] Executed page /Account/Login in 31.02ms
+2025-02-13 00:27:17.558 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:27:17.559 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 44.513ms
+2025-02-13 00:27:20.319 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:27:20.322 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:27:20.323 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-13 00:27:20.324 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-02-13 00:27:20.324 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 302 0 null 5.2848ms
+2025-02-13 00:27:20.327 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - null null
+2025-02-13 00:27:20.328 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:27:20.328 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:27:20.329 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:27:20.332 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:27:20.333 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:27:20.333 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:27:20.333 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:27:20.333 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:27:20.338 +08:00 [INF] Executed page /Account/Login in 8.8129ms
+2025-02-13 00:27:20.338 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:27:20.339 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FLogin - 200 null text/html; charset=utf-8 11.6248ms
+2025-02-13 00:27:21.163 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Register - null null
+2025-02-13 00:27:21.164 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:27:21.165 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-13 00:27:21.166 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-02-13 00:27:21.166 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Register - 302 0 null 3.0678ms
+2025-02-13 00:27:21.169 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FRegister - null null
+2025-02-13 00:27:21.169 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:27:21.170 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:27:21.171 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:27:21.172 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:27:21.172 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:27:21.173 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:27:21.173 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:27:21.173 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:27:21.177 +08:00 [INF] Executed page /Account/Login in 6.4555ms
+2025-02-13 00:27:21.178 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:27:21.178 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FRegister - 200 null text/html; charset=utf-8 9.2505ms
+2025-02-13 00:27:38.069 +08:00 [INF] Application is shutting down...
+2025-02-13 00:27:47.383 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:27:47.454 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:27:47.455 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:27:47.455 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:27:47.455 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:27:50.082 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FRegister - null null
+2025-02-13 00:27:50.088 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:27:50.108 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:27:50.110 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:27:50.123 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:27:50.163 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:27:50.166 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:27:50.166 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:27:50.167 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:27:50.167 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:27:50.195 +08:00 [INF] Executed page /Account/Login in 70.5919ms
+2025-02-13 00:27:50.196 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:27:50.197 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The default Identity UI layout requires a partial view '_LoginPartial' usually located at '/Pages/_LoginPartial' or at '/Views/Shared/_LoginPartial' to work. Based on your configuration we have looked at it in the following locations: 
+/Areas/Identity/Pages/Account/_LoginPartial.cshtml
+/Areas/Identity/Pages/_LoginPartial.cshtml
+/Areas/Identity/Pages/Shared/_LoginPartial.cshtml
+/Areas/Identity/Views/Shared/_LoginPartial.cshtml
+/Pages/Shared/_LoginPartial.cshtml
+/Views/Shared/_LoginPartial.cshtml.
+   at Microsoft.AspNetCore.Identity.UI.V5.Pages.Internal.Areas_Identity_Pages_V5__Layout.<ExecuteAsync>b__43_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at Microsoft.AspNetCore.Identity.UI.V5.Pages.Internal.Areas_Identity_Pages_V5__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-13 00:27:50.210 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FRegister - 500 null text/html; charset=utf-8 130.03ms
+2025-02-13 00:30:26.435 +08:00 [INF] Application is shutting down...
+2025-02-13 00:30:31.901 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:30:31.975 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:30:31.977 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:30:31.977 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:30:31.977 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:30:34.958 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FRegister - null null
+2025-02-13 00:30:34.962 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:30:34.982 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:30:34.984 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:30:35.000 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:30:35.044 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:30:35.046 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:30:35.046 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:30:35.047 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:30:35.048 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:30:35.077 +08:00 [INF] Executed page /Account/Login in 75.3072ms
+2025-02-13 00:30:35.078 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:30:35.079 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The default Identity UI layout requires a partial view '_LoginPartial' usually located at '/Pages/_LoginPartial' or at '/Views/Shared/_LoginPartial' to work. Based on your configuration we have looked at it in the following locations: 
+/Areas/Identity/Pages/Account/_LoginPartial.cshtml
+/Areas/Identity/Pages/_LoginPartial.cshtml
+/Areas/Identity/Pages/Shared/_LoginPartial.cshtml
+/Areas/Identity/Views/Shared/_LoginPartial.cshtml
+/Pages/Shared/_LoginPartial.cshtml
+/Views/Shared/_LoginPartial.cshtml.
+   at Microsoft.AspNetCore.Identity.UI.V5.Pages.Internal.Areas_Identity_Pages_V5__Layout.<ExecuteAsync>b__43_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at Microsoft.AspNetCore.Identity.UI.V5.Pages.Internal.Areas_Identity_Pages_V5__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-13 00:30:35.091 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FRegister - 500 null text/html; charset=utf-8 134.4385ms
+2025-02-13 00:31:13.001 +08:00 [INF] Application is shutting down...
+2025-02-13 00:31:18.570 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:31:18.642 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:31:18.643 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:31:18.643 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:31:18.643 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:31:20.415 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:31:20.420 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:31:20.434 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:31:20.435 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:31:20.436 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 22.0907ms
+2025-02-13 00:31:20.440 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:31:20.441 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint /Account/Login contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-13 00:31:20.453 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 500 null text/html; charset=utf-8 13.6215ms
+2025-02-13 00:31:34.610 +08:00 [INF] Application is shutting down...
+2025-02-13 00:31:42.345 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:31:42.417 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:31:42.418 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:31:42.419 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:31:42.419 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:31:45.388 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FRegister - null null
+2025-02-13 00:31:45.393 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:31:45.411 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:31:45.414 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:31:45.429 +08:00 [INF] Route matched with {page = "/Account/Login", area = "Identity"}. Executing page /Account/Login
+2025-02-13 00:31:45.475 +08:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:31:45.477 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:31:45.477 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:31:45.478 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:31:45.478 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:31:45.507 +08:00 [INF] Executed page /Account/Login in 76.5479ms
+2025-02-13 00:31:45.509 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:31:45.509 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The default Identity UI layout requires a partial view '_LoginPartial' usually located at '/Pages/_LoginPartial' or at '/Views/Shared/_LoginPartial' to work. Based on your configuration we have looked at it in the following locations: 
+/Areas/Identity/Pages/Account/_LoginPartial.cshtml
+/Areas/Identity/Pages/_LoginPartial.cshtml
+/Areas/Identity/Pages/Shared/_LoginPartial.cshtml
+/Areas/Identity/Views/Shared/_LoginPartial.cshtml
+/Pages/Shared/_LoginPartial.cshtml
+/Views/Shared/_LoginPartial.cshtml.
+   at Microsoft.AspNetCore.Identity.UI.V5.Pages.Internal.Areas_Identity_Pages_V5__Layout.<ExecuteAsync>b__43_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at Microsoft.AspNetCore.Identity.UI.V5.Pages.Internal.Areas_Identity_Pages_V5__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-13 00:31:45.522 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FRegister - 500 null text/html; charset=utf-8 135.1537ms
+2025-02-13 00:32:01.938 +08:00 [INF] Application is shutting down...
+2025-02-13 00:32:08.487 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:32:08.527 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:32:08.528 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:32:08.528 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:32:08.528 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:32:11.041 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FRegister - null null
+2025-02-13 00:32:11.048 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:32:11.076 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:32:11.078 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:32:11.079 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Identity/Account/Login?ReturnUrl=%2FAccount%2FRegister - 404 0 null 40.1604ms
+2025-02-13 00:32:11.082 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Identity/Account/Login, Response status code: 404
+2025-02-13 00:32:15.339 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/login - null null
+2025-02-13 00:32:15.343 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:32:15.344 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:32:15.345 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/login - 404 0 null 6.2174ms
+2025-02-13 00:32:15.345 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/login, Response status code: 404
+2025-02-13 00:32:20.333 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:32:20.335 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:32:20.336 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:32:20.337 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:32:20.337 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 4.1604ms
+2025-02-13 00:32:20.338 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:32:20.339 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:32:20.339 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:32:20.339 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 404 0 null 0.9425ms
+2025-02-13 00:32:20.339 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/Login, Response status code: 404
+2025-02-13 00:32:47.803 +08:00 [INF] Application is shutting down...
+2025-02-13 00:32:54.871 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:32:54.910 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:32:54.912 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:32:54.912 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:32:54.912 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:33:00.792 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:33:00.798 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:33:00.829 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:00.831 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:33:00.831 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:33:00.834 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 42.8549ms
+2025-02-13 00:33:00.837 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:33:00.838 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:00.840 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:00.841 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 404 0 null 3.4227ms
+2025-02-13 00:33:00.841 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/Login, Response status code: 404
+2025-02-13 00:33:02.389 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:33:02.392 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:02.393 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:02.394 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 404 0 null 4.4075ms
+2025-02-13 00:33:02.394 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/Login, Response status code: 404
+2025-02-13 00:33:02.765 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:33:02.765 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:02.766 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:02.766 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 404 0 null 1.3115ms
+2025-02-13 00:33:02.766 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/Login, Response status code: 404
+2025-02-13 00:33:02.920 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:33:02.920 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:02.921 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:02.921 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 404 0 null 1.1072ms
+2025-02-13 00:33:02.921 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/Login, Response status code: 404
+2025-02-13 00:33:03.070 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:33:03.071 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:03.071 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:03.071 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 404 0 null 1.1022ms
+2025-02-13 00:33:03.071 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/Login, Response status code: 404
+2025-02-13 00:33:03.215 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:33:03.216 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:03.216 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:33:03.216 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 404 0 null 0.973ms
+2025-02-13 00:33:03.216 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/Login, Response status code: 404
+2025-02-13 00:34:59.637 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/login - null null
+2025-02-13 00:34:59.638 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:34:59.639 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:34:59.639 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/login - 404 0 null 1.9775ms
+2025-02-13 00:34:59.640 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/login, Response status code: 404
+2025-02-13 00:35:02.681 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/login - null null
+2025-02-13 00:35:02.682 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:35:02.682 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:35:02.683 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/login - 404 0 null 1.3883ms
+2025-02-13 00:35:02.683 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/login, Response status code: 404
+2025-02-13 00:37:40.725 +08:00 [INF] Application is shutting down...
+2025-02-13 00:37:46.973 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:37:47.014 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:37:47.015 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:37:47.015 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:37:47.015 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:37:48.727 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:37:48.731 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:37:48.755 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:37:48.757 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:37:48.757 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:37:48.759 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 32.828ms
+2025-02-13 00:37:48.762 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:37:48.762 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:37:48.764 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:37:48.764 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 404 0 null 2.2376ms
+2025-02-13 00:37:48.764 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/Login, Response status code: 404
+2025-02-13 00:37:52.064 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/login - null null
+2025-02-13 00:37:52.067 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:37:52.067 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:37:52.068 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/login - 404 0 null 3.302ms
+2025-02-13 00:37:52.068 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/login, Response status code: 404
+2025-02-13 00:37:52.530 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/login - null null
+2025-02-13 00:37:52.531 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:37:52.531 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:37:52.532 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/login - 404 0 null 1.7849ms
+2025-02-13 00:37:52.532 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/login, Response status code: 404
+2025-02-13 00:37:52.674 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/login - null null
+2025-02-13 00:37:52.675 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:37:52.675 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:37:52.676 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/login - 404 0 null 1.4035ms
+2025-02-13 00:37:52.676 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Account/login, Response status code: 404
+2025-02-13 00:38:19.557 +08:00 [INF] Application is shutting down...
+2025-02-13 00:38:24.183 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:38:24.223 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:38:24.224 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:38:24.224 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:38:24.224 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:38:25.820 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:38:25.826 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:38:25.856 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:38:25.858 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:38:25.858 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:38:25.860 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 41.5848ms
+2025-02-13 00:38:25.862 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Home - null null
+2025-02-13 00:38:25.863 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:38:25.864 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:38:25.864 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Home - 404 0 null 1.5959ms
+2025-02-13 00:38:25.864 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/Home, Response status code: 404
+2025-02-13 00:39:50.381 +08:00 [INF] Application is shutting down...
+2025-02-13 00:39:54.540 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:39:54.622 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:39:54.623 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:39:54.624 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:39:54.624 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:39:56.744 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:39:56.748 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:39:56.764 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:39:56.765 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:39:56.766 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:39:56.767 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 24.469ms
+2025-02-13 00:39:56.770 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Home - null null
+2025-02-13 00:39:56.771 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:39:56.771 +08:00 [INF] Executing endpoint '/Home'
+2025-02-13 00:39:56.781 +08:00 [INF] Route matched with {page = "/Home", area = ""}. Executing page /Home
+2025-02-13 00:39:56.828 +08:00 [INF] Executing handler method dit230680c_AS.Pages.HomeModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:39:56.829 +08:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-13 00:39:56.835 +08:00 [INF] Executing RedirectToPageResult, redirecting to /Account/Login.
+2025-02-13 00:39:56.837 +08:00 [INF] Executed page /Home in 53.9243ms
+2025-02-13 00:39:56.837 +08:00 [INF] Executed endpoint '/Home'
+2025-02-13 00:39:56.837 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Home - 302 0 null 67.6554ms
+2025-02-13 00:39:56.838 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:39:56.840 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:39:56.840 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:39:56.844 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:39:56.850 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:39:56.850 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:39:56.931 +08:00 [INF] Executed page /Account/Login in 86.4889ms
+2025-02-13 00:39:56.931 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:39:56.931 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 93.1921ms
+2025-02-13 00:39:56.943 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:39:56.944 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:39:56.945 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:39:56.945 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:39:56.947 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:39:56.950 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:39:56.950 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:39:56.950 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:39:56.950 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:39:56.952 +08:00 [INF] Executed page /Error in 5.1886ms
+2025-02-13 00:39:56.952 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:39:56.952 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 9.9011ms
+2025-02-13 00:39:56.953 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:04.294 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Register - null null
+2025-02-13 00:40:04.298 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:40:04.299 +08:00 [INF] Executing endpoint '/Account/Register'
+2025-02-13 00:40:04.310 +08:00 [INF] Route matched with {page = "/Account/Register", area = ""}. Executing page /Account/Register
+2025-02-13 00:40:04.314 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:04.314 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:04.357 +08:00 [INF] Executed page /Account/Register in 46.3973ms
+2025-02-13 00:40:04.357 +08:00 [INF] Executed endpoint '/Account/Register'
+2025-02-13 00:40:04.357 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Register - 200 null text/html; charset=utf-8 63.3578ms
+2025-02-13 00:40:04.370 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:40:04.371 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:40:04.373 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:40:04.373 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:40:04.373 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:40:04.374 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:04.374 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:04.374 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:04.374 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:04.375 +08:00 [INF] Executed page /Error in 2.0629ms
+2025-02-13 00:40:04.376 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:40:04.376 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 5.8623ms
+2025-02-13 00:40:04.376 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:12.904 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Register?handler=CheckEmail&email=JunK%40gmail.com - null null
+2025-02-13 00:40:12.905 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:40:12.905 +08:00 [INF] Executing endpoint '/Account/Register'
+2025-02-13 00:40:12.905 +08:00 [INF] Route matched with {page = "/Account/Register", area = ""}. Executing page /Account/Register
+2025-02-13 00:40:12.921 +08:00 [INF] Executing handler method dit230680c_AS.Pages.Account.RegisterModel.OnGetCheckEmail - ModelState is "Valid"
+2025-02-13 00:40:13.447 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__email_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Email" = @__email_0)
+2025-02-13 00:40:13.451 +08:00 [INF] Executed handler method OnGetCheckEmail, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2025-02-13 00:40:13.451 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType12`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-13 00:40:13.466 +08:00 [INF] Executed page /Account/Register in 560.241ms
+2025-02-13 00:40:13.466 +08:00 [INF] Executed endpoint '/Account/Register'
+2025-02-13 00:40:13.468 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Register?handler=CheckEmail&email=JunK%40gmail.com - 200 null application/json; charset=utf-8 563.7885ms
+2025-02-13 00:40:29.222 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Account/Register - multipart/form-data; boundary=----WebKitFormBoundaryv5B4TXEoqWPkPhKl 69230
+2025-02-13 00:40:29.223 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:40:29.223 +08:00 [INF] Executing endpoint '/Account/Register'
+2025-02-13 00:40:29.224 +08:00 [INF] Route matched with {page = "/Account/Register", area = ""}. Executing page /Account/Register
+2025-02-13 00:40:29.272 +08:00 [INF] Executing handler method dit230680c_AS.Pages.Account.RegisterModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:40:29.285 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Input_Email_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u"
+    WHERE "u"."Email" = @__Input_Email_0)
+2025-02-13 00:40:29.317 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 36), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CreatedAt", "p"."HashedPassword", "p"."UserId"
+FROM "PasswordHistories" AS "p"
+WHERE "p"."UserId" = @__user_Id_0
+ORDER BY "p"."CreatedAt" DESC
+LIMIT @__p_1
+2025-02-13 00:40:29.364 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:40:29.417 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Int32), @p2='?' (Size = 36), @p3='?' (Size = 14), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 14), @p8='?' (Size = 14), @p9='?' (Size = 84), @p10='?', @p11='?' (DbType = Boolean), @p12='?' (Size = 32), @p13='?' (DbType = Boolean), @p14='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2025-02-13 00:40:29.432 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 6), @p1='?' (Size = 44), @p2='?', @p3='?' (Size = 13), @p4='?' (Size = 14), @p5='?' (Size = 5), @p6='?' (Size = 4), @p7='?' (Size = 11), @p8='?' (Size = 84), @p9='?' (Size = 49)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("AboutMe", "CreditCardNo", "CurrentSessionId", "DeliveryAddress", "Email", "FullName", "Gender", "MobileNo", "PasswordHash", "PhotoPath")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)
+RETURNING "Id";
+2025-02-13 00:40:29.440 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-13 00:40:29.440 +08:00 [INF] Executing RedirectToPageResult, redirecting to /Home.
+2025-02-13 00:40:29.441 +08:00 [INF] Executed page /Account/Register in 216.9136ms
+2025-02-13 00:40:29.441 +08:00 [INF] Executed endpoint '/Account/Register'
+2025-02-13 00:40:29.442 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Account/Register - 302 0 null 220.0232ms
+2025-02-13 00:40:29.444 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Home - null null
+2025-02-13 00:40:29.444 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:40:29.444 +08:00 [INF] Executing endpoint '/Home'
+2025-02-13 00:40:29.444 +08:00 [INF] Route matched with {page = "/Home", area = ""}. Executing page /Home
+2025-02-13 00:40:29.445 +08:00 [INF] Executing handler method dit230680c_AS.Pages.HomeModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:40:29.446 +08:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-13 00:40:29.446 +08:00 [INF] Executing RedirectToPageResult, redirecting to /Account/Login.
+2025-02-13 00:40:29.446 +08:00 [INF] Executed page /Home in 1.2616ms
+2025-02-13 00:40:29.446 +08:00 [INF] Executed endpoint '/Home'
+2025-02-13 00:40:29.446 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Home - 302 0 null 1.7477ms
+2025-02-13 00:40:29.447 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:40:29.447 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:40:29.447 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:40:29.447 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:40:29.448 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:29.448 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:29.448 +08:00 [INF] Executed page /Account/Login in 1.0242ms
+2025-02-13 00:40:29.449 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:40:29.449 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 1.4195ms
+2025-02-13 00:40:29.463 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:40:29.466 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:40:29.466 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:40:29.467 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:40:29.467 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:40:29.467 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:29.467 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:29.467 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:29.467 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:29.468 +08:00 [INF] Executed page /Error in 0.9435ms
+2025-02-13 00:40:29.468 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:40:29.468 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 4.8784ms
+2025-02-13 00:40:29.468 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:34.780 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Account/Login - application/x-www-form-urlencoded 2259
+2025-02-13 00:40:34.781 +08:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2025-02-13 00:40:34.781 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:40:34.781 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:40:34.788 +08:00 [INF] Executing handler method dit230680c_AS.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:40:35.061 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:40:35.114 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" AS "a"
+WHERE "a"."UserId" = @__user_Id_0
+2025-02-13 00:40:35.115 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-02-13 00:40:35.116 +08:00 [INF] Accessing expired session, Key:e0eade42-3192-b5da-c0b3-fb3924f7332d
+2025-02-13 00:40:35.118 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Input_Email_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."AboutMe", "u"."CreditCardNo", "u"."CurrentSessionId", "u"."DeliveryAddress", "u"."Email", "u"."FullName", "u"."Gender", "u"."MobileNo", "u"."PasswordHash", "u"."PhotoPath"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__Input_Email_0
+LIMIT 1
+2025-02-13 00:40:35.120 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Users" SET "CurrentSessionId" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2025-02-13 00:40:35.129 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 43), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 117), @p4='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AuditLogs" ("Activity", "IpAddress", "Timestamp", "UserAgent", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-02-13 00:40:35.129 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-13 00:40:35.129 +08:00 [INF] Executing RedirectToPageResult, redirecting to /Home.
+2025-02-13 00:40:35.129 +08:00 [INF] Executed page /Account/Login in 347.9055ms
+2025-02-13 00:40:35.129 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:40:35.130 +08:00 [INF] Session started; Key:e0eade42-3192-b5da-c0b3-fb3924f7332d, Id:fdb8f244-21b8-78da-fe65-465ab3b6a81a
+2025-02-13 00:40:35.130 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Account/Login - 302 0 null 349.703ms
+2025-02-13 00:40:35.132 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Home - null null
+2025-02-13 00:40:35.133 +08:00 [INF] Executing endpoint '/Home'
+2025-02-13 00:40:35.133 +08:00 [INF] Route matched with {page = "/Home", area = ""}. Executing page /Home
+2025-02-13 00:40:35.133 +08:00 [INF] Executing handler method dit230680c_AS.Pages.HomeModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:40:35.135 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserEmail_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."AboutMe", "u"."CreditCardNo", "u"."CurrentSessionId", "u"."DeliveryAddress", "u"."Email", "u"."FullName", "u"."Gender", "u"."MobileNo", "u"."PasswordHash", "u"."PhotoPath"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__UserEmail_0
+LIMIT 1
+2025-02-13 00:40:35.135 +08:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:35.138 +08:00 [INF] Executed page /Home in 5.1251ms
+2025-02-13 00:40:35.138 +08:00 [INF] Executed endpoint '/Home'
+2025-02-13 00:40:35.138 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Home - 200 null text/html; charset=utf-8 6.1582ms
+2025-02-13 00:40:35.150 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:40:35.152 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:40:35.152 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:40:35.153 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:35.153 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:35.153 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:35.153 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:35.153 +08:00 [INF] Executed page /Error in 0.7054ms
+2025-02-13 00:40:35.153 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:40:35.153 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 3.3651ms
+2025-02-13 00:40:35.153 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:38.736 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Privacy - null null
+2025-02-13 00:40:38.741 +08:00 [INF] Executing endpoint '/Privacy'
+2025-02-13 00:40:38.746 +08:00 [INF] Route matched with {page = "/Privacy", area = ""}. Executing page /Privacy
+2025-02-13 00:40:38.746 +08:00 [INF] Executing handler method dit230680c_AS.Pages.PrivacyModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:38.747 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:38.747 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:38.747 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:38.750 +08:00 [INF] Executed page /Privacy in 4.2107ms
+2025-02-13 00:40:38.750 +08:00 [INF] Executed endpoint '/Privacy'
+2025-02-13 00:40:38.751 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Privacy - 200 null text/html; charset=utf-8 14.8144ms
+2025-02-13 00:40:38.761 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:40:38.762 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:40:38.763 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:40:38.763 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:38.763 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:38.763 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:38.763 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:38.764 +08:00 [INF] Executed page /Error in 1.1205ms
+2025-02-13 00:40:38.764 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:40:38.764 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 2.6474ms
+2025-02-13 00:40:38.764 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:39.115 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Home - null null
+2025-02-13 00:40:39.116 +08:00 [INF] Executing endpoint '/Home'
+2025-02-13 00:40:39.116 +08:00 [INF] Route matched with {page = "/Home", area = ""}. Executing page /Home
+2025-02-13 00:40:39.117 +08:00 [INF] Executing handler method dit230680c_AS.Pages.HomeModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:40:39.117 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserEmail_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."AboutMe", "u"."CreditCardNo", "u"."CurrentSessionId", "u"."DeliveryAddress", "u"."Email", "u"."FullName", "u"."Gender", "u"."MobileNo", "u"."PasswordHash", "u"."PhotoPath"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__UserEmail_0
+LIMIT 1
+2025-02-13 00:40:39.118 +08:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:39.119 +08:00 [INF] Executed page /Home in 2.391ms
+2025-02-13 00:40:39.119 +08:00 [INF] Executed endpoint '/Home'
+2025-02-13 00:40:39.119 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Home - 200 null text/html; charset=utf-8 3.5601ms
+2025-02-13 00:40:39.131 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:40:39.132 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:40:39.133 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:40:39.133 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:39.133 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:39.134 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:39.134 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:39.134 +08:00 [INF] Executed page /Error in 1.4424ms
+2025-02-13 00:40:39.134 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:40:39.134 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 3.1917ms
+2025-02-13 00:40:39.135 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:46.036 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/AuditLog - null null
+2025-02-13 00:40:46.037 +08:00 [INF] Executing endpoint '/AuditLog'
+2025-02-13 00:40:46.042 +08:00 [INF] Route matched with {page = "/AuditLog", area = ""}. Executing page /AuditLog
+2025-02-13 00:40:46.043 +08:00 [INF] Executing handler method dit230680c_AS.Pages.AuditLogsModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:40:46.054 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."Activity", "a"."IpAddress", "a"."Timestamp", "a"."UserAgent", "a"."UserId"
+FROM "AuditLogs" AS "a"
+ORDER BY "a"."Timestamp" DESC
+LIMIT @__p_0
+2025-02-13 00:40:46.055 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-02-13 00:40:46.055 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:46.055 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:46.060 +08:00 [INF] Executed page /AuditLog in 17.7871ms
+2025-02-13 00:40:46.060 +08:00 [INF] Executed endpoint '/AuditLog'
+2025-02-13 00:40:46.061 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/AuditLog - 200 null text/html; charset=utf-8 25.2087ms
+2025-02-13 00:40:46.073 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:40:46.074 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:40:46.074 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:40:46.074 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:46.074 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:46.074 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:46.074 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:46.075 +08:00 [INF] Executed page /Error in 1.1074ms
+2025-02-13 00:40:46.075 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:40:46.075 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 2.7655ms
+2025-02-13 00:40:46.075 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:52.098 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Home - null null
+2025-02-13 00:40:52.099 +08:00 [INF] Executing endpoint '/Home'
+2025-02-13 00:40:52.099 +08:00 [INF] Route matched with {page = "/Home", area = ""}. Executing page /Home
+2025-02-13 00:40:52.099 +08:00 [INF] Executing handler method dit230680c_AS.Pages.HomeModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:40:52.100 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserEmail_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."AboutMe", "u"."CreditCardNo", "u"."CurrentSessionId", "u"."DeliveryAddress", "u"."Email", "u"."FullName", "u"."Gender", "u"."MobileNo", "u"."PasswordHash", "u"."PhotoPath"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__UserEmail_0
+LIMIT 1
+2025-02-13 00:40:52.100 +08:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:52.102 +08:00 [INF] Executed page /Home in 2.9232ms
+2025-02-13 00:40:52.102 +08:00 [INF] Executed endpoint '/Home'
+2025-02-13 00:40:52.102 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Home - 200 null text/html; charset=utf-8 4.3885ms
+2025-02-13 00:40:52.111 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:40:52.112 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:40:52.112 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:40:52.112 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:52.112 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:52.112 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:52.112 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:52.113 +08:00 [INF] Executed page /Error in 1.1468ms
+2025-02-13 00:40:52.113 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:40:52.113 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 2.48ms
+2025-02-13 00:40:52.114 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:53.086 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Home?handler=Logout - application/x-www-form-urlencoded 225
+2025-02-13 00:40:53.088 +08:00 [INF] Executing endpoint '/Home'
+2025-02-13 00:40:53.088 +08:00 [INF] Route matched with {page = "/Home", area = ""}. Executing page /Home
+2025-02-13 00:40:53.089 +08:00 [INF] Executing handler method dit230680c_AS.Pages.HomeModel.OnPostLogoutAsync - ModelState is "Valid"
+2025-02-13 00:40:53.093 +08:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2025-02-13 00:40:53.095 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:40:53.095 +08:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2025-02-13 00:40:53.096 +08:00 [INF] Executed handler method OnPostLogoutAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-13 00:40:53.096 +08:00 [INF] Executing RedirectToPageResult, redirecting to /Account/Login.
+2025-02-13 00:40:53.096 +08:00 [INF] Executed page /Home in 7.8564ms
+2025-02-13 00:40:53.096 +08:00 [INF] Executed endpoint '/Home'
+2025-02-13 00:40:53.097 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Home?handler=Logout - 302 0 null 10.9143ms
+2025-02-13 00:40:53.100 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:40:53.100 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:40:53.100 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:40:53.101 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:53.101 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:53.104 +08:00 [INF] Executed page /Account/Login in 3.9964ms
+2025-02-13 00:40:53.105 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:40:53.105 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 5.1476ms
+2025-02-13 00:40:53.117 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:40:53.118 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:40:53.118 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:40:53.119 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:53.119 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:53.119 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:53.119 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:53.120 +08:00 [INF] Executed page /Error in 1.3957ms
+2025-02-13 00:40:53.120 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:40:53.120 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 3.4497ms
+2025-02-13 00:40:53.120 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:55.930 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Account/Login - application/x-www-form-urlencoded 2251
+2025-02-13 00:40:55.932 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:40:55.932 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:40:55.933 +08:00 [INF] Executing handler method dit230680c_AS.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:40:56.059 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:40:56.137 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:40:56.141 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p14='?' (Size = 36), @p0='?' (DbType = Int32), @p1='?' (Size = 36), @p15='?' (Size = 36), @p2='?' (Size = 14), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 14), @p7='?' (Size = 14), @p8='?' (Size = 84), @p9='?', @p10='?' (DbType = Boolean), @p11='?' (Size = 32), @p12='?' (DbType = Boolean), @p13='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NormalizedEmail" = @p6, "NormalizedUserName" = @p7, "PasswordHash" = @p8, "PhoneNumber" = @p9, "PhoneNumberConfirmed" = @p10, "SecurityStamp" = @p11, "TwoFactorEnabled" = @p12, "UserName" = @p13
+WHERE "Id" = @p14 AND "ConcurrencyStamp" = @p15
+RETURNING 1;
+2025-02-13 00:40:56.142 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:56.143 +08:00 [INF] Executed page /Account/Login in 211.0221ms
+2025-02-13 00:40:56.143 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:40:56.143 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 213.0481ms
+2025-02-13 00:40:56.155 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:40:56.157 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:40:56.157 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:40:56.157 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:56.157 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:56.157 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:56.157 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:56.158 +08:00 [INF] Executed page /Error in 1.0979ms
+2025-02-13 00:40:56.158 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:40:56.158 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 2.726ms
+2025-02-13 00:40:56.158 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:58.203 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Account/Login - application/x-www-form-urlencoded 2252
+2025-02-13 00:40:58.204 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:40:58.204 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:40:58.205 +08:00 [INF] Executing handler method dit230680c_AS.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:40:58.323 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:40:58.401 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:40:58.402 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p14='?' (Size = 36), @p0='?' (DbType = Int32), @p1='?' (Size = 36), @p15='?' (Size = 36), @p2='?' (Size = 14), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 14), @p7='?' (Size = 14), @p8='?' (Size = 84), @p9='?', @p10='?' (DbType = Boolean), @p11='?' (Size = 32), @p12='?' (DbType = Boolean), @p13='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NormalizedEmail" = @p6, "NormalizedUserName" = @p7, "PasswordHash" = @p8, "PhoneNumber" = @p9, "PhoneNumberConfirmed" = @p10, "SecurityStamp" = @p11, "TwoFactorEnabled" = @p12, "UserName" = @p13
+WHERE "Id" = @p14 AND "ConcurrencyStamp" = @p15
+RETURNING 1;
+2025-02-13 00:40:58.402 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:58.403 +08:00 [INF] Executed page /Account/Login in 198.81ms
+2025-02-13 00:40:58.403 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:40:58.403 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 200.0823ms
+2025-02-13 00:40:58.415 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:40:58.416 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:40:58.416 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:40:58.417 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:40:58.417 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:40:58.417 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:40:58.417 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:40:58.418 +08:00 [INF] Executed page /Error in 1.1079ms
+2025-02-13 00:40:58.418 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:40:58.418 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 2.5958ms
+2025-02-13 00:40:58.418 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:40:59.893 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Account/Login - application/x-www-form-urlencoded 2253
+2025-02-13 00:40:59.894 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:40:59.895 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:40:59.896 +08:00 [INF] Executing handler method dit230680c_AS.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:41:00.001 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:41:00.059 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:41:00.060 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p14='?' (Size = 36), @p0='?' (DbType = Int32), @p1='?' (Size = 36), @p15='?' (Size = 36), @p2='?' (Size = 14), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 14), @p7='?' (Size = 14), @p8='?' (Size = 84), @p9='?', @p10='?' (DbType = Boolean), @p11='?' (Size = 32), @p12='?' (DbType = Boolean), @p13='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NormalizedEmail" = @p6, "NormalizedUserName" = @p7, "PasswordHash" = @p8, "PhoneNumber" = @p9, "PhoneNumberConfirmed" = @p10, "SecurityStamp" = @p11, "TwoFactorEnabled" = @p12, "UserName" = @p13
+WHERE "Id" = @p14 AND "ConcurrencyStamp" = @p15
+RETURNING 1;
+2025-02-13 00:41:00.061 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:41:00.061 +08:00 [INF] Executed page /Account/Login in 166.4552ms
+2025-02-13 00:41:00.061 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:41:00.061 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 168.0035ms
+2025-02-13 00:41:00.075 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:41:00.076 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:41:00.076 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:41:00.077 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:41:00.077 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:41:00.077 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:41:00.077 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:41:00.078 +08:00 [INF] Executed page /Error in 1.5448ms
+2025-02-13 00:41:00.078 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:41:00.078 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 3.3875ms
+2025-02-13 00:41:00.079 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:41:18.916 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Changepassword - null null
+2025-02-13 00:41:18.917 +08:00 [INF] Executing endpoint '/Account/ChangePassword'
+2025-02-13 00:41:18.924 +08:00 [INF] Route matched with {page = "/Account/ChangePassword", area = ""}. Executing page /Account/ChangePassword
+2025-02-13 00:41:18.925 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:41:18.925 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:41:18.941 +08:00 [INF] Executed page /Account/ChangePassword in 17.4113ms
+2025-02-13 00:41:18.942 +08:00 [INF] Executed endpoint '/Account/ChangePassword'
+2025-02-13 00:41:18.942 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Changepassword - 200 null text/html; charset=utf-8 25.4768ms
+2025-02-13 00:41:18.957 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:41:18.958 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:41:18.959 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:41:18.959 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:41:18.960 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:41:18.960 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:41:18.960 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:41:18.960 +08:00 [INF] Executed page /Error in 1.4762ms
+2025-02-13 00:41:18.960 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:41:18.960 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 3.3826ms
+2025-02-13 00:41:18.961 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:41:45.023 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:41:45.024 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:41:45.024 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:41:45.024 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:41:45.024 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:41:45.026 +08:00 [INF] Executed page /Account/Login in 1.5611ms
+2025-02-13 00:41:45.026 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:41:45.026 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 2.7699ms
+2025-02-13 00:41:45.033 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:41:45.034 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:41:45.034 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:41:45.035 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:41:45.035 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:41:45.035 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:41:45.035 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:41:45.036 +08:00 [INF] Executed page /Error in 1.0086ms
+2025-02-13 00:41:45.036 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:41:45.036 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 3.2295ms
+2025-02-13 00:41:45.036 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:41:45.995 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Home - null null
+2025-02-13 00:41:45.996 +08:00 [INF] Executing endpoint '/Home'
+2025-02-13 00:41:45.996 +08:00 [INF] Route matched with {page = "/Home", area = ""}. Executing page /Home
+2025-02-13 00:41:45.997 +08:00 [INF] Executing handler method dit230680c_AS.Pages.HomeModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:41:45.997 +08:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-13 00:41:45.997 +08:00 [INF] Executing RedirectToPageResult, redirecting to /Account/Login.
+2025-02-13 00:41:45.997 +08:00 [INF] Executed page /Home in 0.9307ms
+2025-02-13 00:41:45.997 +08:00 [INF] Executed endpoint '/Home'
+2025-02-13 00:41:45.997 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Home - 302 0 null 2.262ms
+2025-02-13 00:41:46.000 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:41:46.000 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:41:46.001 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:41:46.001 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:41:46.001 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:41:46.003 +08:00 [INF] Executed page /Account/Login in 2.521ms
+2025-02-13 00:41:46.003 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:41:46.004 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 3.3883ms
+2025-02-13 00:41:46.017 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:41:46.018 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:41:46.018 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:41:46.018 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:41:46.018 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:41:46.018 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:41:46.018 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:41:46.019 +08:00 [INF] Executed page /Error in 0.782ms
+2025-02-13 00:41:46.019 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:41:46.019 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 1.7255ms
+2025-02-13 00:41:46.019 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:41:55.027 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Account/Login - application/x-www-form-urlencoded 2259
+2025-02-13 00:41:55.028 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:41:55.028 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:41:55.029 +08:00 [INF] Executing handler method dit230680c_AS.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:41:55.155 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:41:55.156 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:41:55.157 +08:00 [INF] Executed page /Account/Login in 128.7032ms
+2025-02-13 00:41:55.157 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:41:55.157 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 129.6162ms
+2025-02-13 00:41:55.170 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:41:55.172 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:41:55.172 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:41:55.172 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:41:55.172 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:41:55.173 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:41:55.173 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:41:55.173 +08:00 [INF] Executed page /Error in 1.0212ms
+2025-02-13 00:41:55.173 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:41:55.173 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 3.0007ms
+2025-02-13 00:41:55.174 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:41:59.069 +08:00 [INF] Application is shutting down...
+2025-02-13 00:42:05.692 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:42:05.767 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:42:05.769 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:42:05.769 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:42:05.769 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:42:11.348 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Account/Login - application/x-www-form-urlencoded 2259
+2025-02-13 00:42:11.355 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:42:11.374 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:42:11.388 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:42:11.433 +08:00 [INF] Executing handler method dit230680c_AS.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:42:11.562 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:42:11.649 +08:00 [INF] Executed page /Account/Login in 259.2554ms
+2025-02-13 00:42:11.651 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:42:11.653 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 306.4842ms
+2025-02-13 00:42:11.664 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:42:11.664 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-02-13 00:42:11.666 +08:00 [INF] The file /js/site.js was not modified
+2025-02-13 00:42:11.666 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 3.0635ms
+2025-02-13 00:42:11.668 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:42:11.669 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:42:11.671 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:42:11.671 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:42:11.672 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:42:11.672 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:42:11.674 +08:00 [INF] Executed page /Error in 4.8504ms
+2025-02-13 00:42:11.674 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:42:11.675 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 11.7674ms
+2025-02-13 00:42:11.675 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:42:15.892 +08:00 [INF] Application is shutting down...
+2025-02-13 00:42:22.872 +08:00 [INF] User profile is available. Using '/Users/lance/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-13 00:42:22.943 +08:00 [INF] Now listening on: http://localhost:5064
+2025-02-13 00:42:22.944 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 00:42:22.945 +08:00 [INF] Hosting environment: Development
+2025-02-13 00:42:22.945 +08:00 [INF] Content root path: /Users/lance/Downloads/Lance_AS/dit230680c_AS/dit230680c_AS
+2025-02-13 00:42:25.147 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/ - null null
+2025-02-13 00:42:25.152 +08:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 00:42:25.167 +08:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-02-13 00:42:25.168 +08:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-02-13 00:42:25.170 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/ - 302 0 null 23.3364ms
+2025-02-13 00:42:25.172 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Home - null null
+2025-02-13 00:42:25.173 +08:00 [INF] Executing endpoint '/Home'
+2025-02-13 00:42:25.184 +08:00 [INF] Route matched with {page = "/Home", area = ""}. Executing page /Home
+2025-02-13 00:42:25.238 +08:00 [INF] Executing handler method dit230680c_AS.Pages.HomeModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:42:25.239 +08:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-13 00:42:25.245 +08:00 [INF] Executing RedirectToPageResult, redirecting to /Account/Login.
+2025-02-13 00:42:25.246 +08:00 [INF] Executed page /Home in 60.9657ms
+2025-02-13 00:42:25.247 +08:00 [INF] Executed endpoint '/Home'
+2025-02-13 00:42:25.248 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Home - 302 0 null 75.5508ms
+2025-02-13 00:42:25.248 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:42:25.250 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:42:25.254 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:42:25.259 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:42:25.259 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:42:25.345 +08:00 [INF] Executed page /Account/Login in 90.5032ms
+2025-02-13 00:42:25.345 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:42:25.345 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 96.833ms
+2025-02-13 00:42:25.357 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:42:25.362 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:42:25.363 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:42:25.366 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:42:25.366 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:42:25.366 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:42:25.366 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:42:25.368 +08:00 [INF] Executed page /Error in 4.883ms
+2025-02-13 00:42:25.368 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:42:25.369 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 11.8103ms
+2025-02-13 00:42:25.369 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:42:35.851 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Account/Login - application/x-www-form-urlencoded 2280
+2025-02-13 00:42:35.853 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:42:35.853 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:42:35.880 +08:00 [INF] Executing handler method dit230680c_AS.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2025-02-13 00:42:36.359 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-13 00:42:36.444 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" AS "a"
+WHERE "a"."UserId" = @__user_Id_0
+2025-02-13 00:42:36.446 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-02-13 00:42:36.446 +08:00 [INF] Accessing expired session, Key:e0eade42-3192-b5da-c0b3-fb3924f7332d
+2025-02-13 00:42:36.449 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Input_Email_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."AboutMe", "u"."CreditCardNo", "u"."CurrentSessionId", "u"."DeliveryAddress", "u"."Email", "u"."FullName", "u"."Gender", "u"."MobileNo", "u"."PasswordHash", "u"."PhotoPath"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__Input_Email_0
+LIMIT 1
+2025-02-13 00:42:36.482 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Users" SET "CurrentSessionId" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2025-02-13 00:42:36.502 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 43), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 117), @p4='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AuditLogs" ("Activity", "IpAddress", "Timestamp", "UserAgent", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-02-13 00:42:36.507 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-13 00:42:36.507 +08:00 [INF] Executing RedirectToPageResult, redirecting to /Home.
+2025-02-13 00:42:36.508 +08:00 [INF] Executed page /Account/Login in 654.2183ms
+2025-02-13 00:42:36.508 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:42:36.508 +08:00 [INF] Session started; Key:e0eade42-3192-b5da-c0b3-fb3924f7332d, Id:6dde4664-2cf7-4468-5e64-7f6196fb0c1d
+2025-02-13 00:42:36.510 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Account/Login - 302 0 null 659.5067ms
+2025-02-13 00:42:36.511 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Home - null null
+2025-02-13 00:42:36.512 +08:00 [INF] Executing endpoint '/Home'
+2025-02-13 00:42:36.512 +08:00 [INF] Route matched with {page = "/Home", area = ""}. Executing page /Home
+2025-02-13 00:42:36.512 +08:00 [INF] Executing handler method dit230680c_AS.Pages.HomeModel.OnGetAsync - ModelState is "Valid"
+2025-02-13 00:42:36.528 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserEmail_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."AboutMe", "u"."CreditCardNo", "u"."CurrentSessionId", "u"."DeliveryAddress", "u"."Email", "u"."FullName", "u"."Gender", "u"."MobileNo", "u"."PasswordHash", "u"."PhotoPath"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__UserEmail_0
+LIMIT 1
+2025-02-13 00:42:36.528 +08:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:42:36.532 +08:00 [INF] Executed page /Home in 20.0742ms
+2025-02-13 00:42:36.532 +08:00 [INF] Executed endpoint '/Home'
+2025-02-13 00:42:36.532 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Home - 200 null text/html; charset=utf-8 21.3844ms
+2025-02-13 00:42:36.546 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:42:36.549 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:42:36.549 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:42:36.549 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:42:36.549 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:42:36.549 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:42:36.549 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:42:36.550 +08:00 [INF] Executed page /Error in 1.1805ms
+2025-02-13 00:42:36.550 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:42:36.551 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 4.8289ms
+2025-02-13 00:42:36.551 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 00:42:42.121 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5064/Home?handler=Logout - application/x-www-form-urlencoded 225
+2025-02-13 00:42:42.125 +08:00 [INF] Executing endpoint '/Home'
+2025-02-13 00:42:42.126 +08:00 [INF] Route matched with {page = "/Home", area = ""}. Executing page /Home
+2025-02-13 00:42:42.128 +08:00 [INF] Executing handler method dit230680c_AS.Pages.HomeModel.OnPostLogoutAsync - ModelState is "Valid"
+2025-02-13 00:42:42.131 +08:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2025-02-13 00:42:42.132 +08:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-02-13 00:42:42.133 +08:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2025-02-13 00:42:42.133 +08:00 [INF] Executed handler method OnPostLogoutAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-13 00:42:42.133 +08:00 [INF] Executing RedirectToPageResult, redirecting to /Account/Login.
+2025-02-13 00:42:42.134 +08:00 [INF] Executed page /Home in 7.5ms
+2025-02-13 00:42:42.134 +08:00 [INF] Executed endpoint '/Home'
+2025-02-13 00:42:42.135 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5064/Home?handler=Logout - 302 0 null 13.6264ms
+2025-02-13 00:42:42.137 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 00:42:42.137 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 00:42:42.138 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 00:42:42.140 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:42:42.140 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:42:42.145 +08:00 [INF] Executed page /Account/Login in 7.44ms
+2025-02-13 00:42:42.146 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 00:42:42.146 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 9.0487ms
+2025-02-13 00:42:42.155 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - null null
+2025-02-13 00:42:42.156 +08:00 [INF] Executing endpoint '/Error'
+2025-02-13 00:42:42.156 +08:00 [INF] Route matched with {page = "/Error", area = ""}. Executing page /Error
+2025-02-13 00:42:42.157 +08:00 [INF] Executing handler method dit230680c_AS.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-13 00:42:42.157 +08:00 [INF] Executed handler method OnGet, returned result .
+2025-02-13 00:42:42.157 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 00:42:42.157 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 00:42:42.158 +08:00 [INF] Executed page /Error in 1.765ms
+2025-02-13 00:42:42.158 +08:00 [INF] Executed endpoint '/Error'
+2025-02-13 00:42:42.159 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/dit220958p_AS.styles.css - 404 null text/html; charset=utf-8 3.0747ms
+2025-02-13 00:42:42.159 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5064/dit220958p_AS.styles.css, Response status code: 404
+2025-02-13 09:31:49.051 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Account/Login - null null
+2025-02-13 09:31:49.054 +08:00 [INF] Executing endpoint '/Account/Login'
+2025-02-13 09:31:49.054 +08:00 [INF] Route matched with {page = "/Account/Login", area = ""}. Executing page /Account/Login
+2025-02-13 09:31:49.055 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-13 09:31:49.056 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-13 09:31:49.062 +08:00 [INF] Executed page /Account/Login in 7.4852ms
+2025-02-13 09:31:49.062 +08:00 [INF] Executed endpoint '/Account/Login'
+2025-02-13 09:31:49.062 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Account/Login - 200 null text/html; charset=utf-8 10.9106ms
+2025-02-13 09:32:34.309 +08:00 [INF] Application is shutting down...

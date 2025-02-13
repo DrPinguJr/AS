@@ -1,0 +1,17 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="text-center mt-5">
+    <h1 class="text-danger">Oops! Something went wrong.</h1>
+    <p>Sorry, there has been an error. Please return to the home page.</p>
+    
+    @if (Model.ErrorCode != null)
+    {
+        <p>Error Code: <strong>@Model.ErrorCode</strong></p>
+    }
+
+    <a href="/Home" class="btn btn-primary">Return to Home</a>
+</div>

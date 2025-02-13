@@ -1,0 +1,57 @@
+﻿@page
+@using dit230680c_AS.Pages.Account
+@model LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+
+<form method="post">
+    <!-- Email -->
+    <div>
+        <label>Email:</label>
+        <input asp-for="Input.Email" class="form-control" required />
+        <span asp-validation-for="Input.Email" class="text-danger"></span>
+    </div>
+
+    <!-- Password -->
+    <div>
+        <label>Password:</label>
+        <input asp-for="Input.Password" type="password" class="form-control" required />
+        <span asp-validation-for="Input.Password" class="text-danger"></span>
+    </div>
+
+    <!-- Remember Me -->
+    <div>
+        <label>
+            <input asp-for="Input.RememberMe" /> Remember Me
+        </label>
+    </div>
+
+    <!-- Hidden field to store the reCAPTCHA token -->
+    <input type="hidden" id="recaptcha-token" name="recaptcha-token" />
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary mt-3">Login</button>
+
+    <!-- General Error Message -->
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="text-danger mt-2">@Model.ErrorMessage</div>
+    }
+</form>
+
+@section Scripts {
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lf2DdUqAAAAAPRW2a-LZAGVu-C2eAwk38B21oXk" async defer></script>
+    <script>
+        document.querySelector('form').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevent form submission to ensure we get the reCAPTCHA token first
+            grecaptcha.execute('6Lf2DdUqAAAAAPRW2a-LZAGVu-C2eAwk38B21oXk', { action: 'LOGIN' })
+                .then(function (token) {
+                    document.getElementById('recaptcha-token').value = token;  // Set the token value in the hidden input field
+                    e.target.submit();  // Now submit the form after setting the token
+                });
+        });
+    </script>
+}

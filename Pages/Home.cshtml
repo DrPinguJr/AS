@@ -1,0 +1,60 @@
+﻿@page
+@model dit230680c_AS.Pages.HomeModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h2>Welcome, @Model.UserEmail!</h2>
+<p>Your Session ID: @Model.SessionId</p>
+
+<h3>User Details</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Field</th>
+            <th>Encrypted Data</th>
+            <th>Decrypted Data</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Full Name</strong></td>
+            <td>@Model.FullName</td>
+            <td>@Model.FullName</td>
+        </tr>
+        <tr>
+            <td><strong>Gender</strong></td>
+            <td>@Model.Gender</td>
+            <td>@Model.Gender</td>
+        </tr>
+        <tr>
+            <td><strong>Mobile Number</strong></td>
+            <td>@Model.MobileNo</td>
+            <td>@Model.MobileNo</td>
+        </tr>
+        <tr>
+            <td><strong>Delivery Address</strong></td>
+            <td>@Model.DeliveryAddress</td>
+            <td>@Model.DeliveryAddress</td>
+        </tr>
+        <tr>
+            <td><strong>About Me</strong></td>
+            <td>@Model.AboutMe</td>
+            <td>@Model.AboutMe</td>
+        </tr>
+        <tr>
+            <td><strong>Encrypted Credit Card Number</strong></td>
+            <td>@Model.EncryptedCreditCardNo</td>
+            <td>@(string.IsNullOrEmpty(Model.DecryptedCreditCardNo) ? "N/A" : Model.DecryptedCreditCardNo)</td> <!-- Display decrypted credit card number -->
+        </tr>
+        <tr>
+            <td><strong>Photo Path</strong></td>
+            <td>@Model.PhotoPath</td>
+            <td>@Model.PhotoPath</td>
+        </tr>
+    </tbody>
+</table>
+
+<form method="post">
+    <button type="submit" asp-page-handler="Logout" class="btn btn-danger">Logout</button>
+</form>
